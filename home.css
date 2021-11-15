@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+
+    
+
+
+
+}
+
+
+header .navbar{
+    height: 5rem;
+    background-image: linear-gradient(yellow,orange );
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+header .navbar a{
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    margin-right: 30px;
+
+}
+header .navbar a:hover{
+    background: chartreuse;
+    border-bottom: 10px solid red;
+}
+
+
+.home {
+    background:whitesmoke;
+    
+    }
+    .home .homerow{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .home .homerow .content{
+        margin: 1.5rem;
+        flex: 1 1 25rem;
+        text-align: center;
+        border-left:4px solid chartreuse;
+    
+    }
+    .home .homerow .content h1{
+        font-size: 2rem;
+        color: black;
+        padding: 1rem;
+        margin: 1rem;
+    
+    }
+    .home .homerow .content p{
+        font-size: 1rem;
+        color: brown;
+        font-family: monospace;
+        padding: 1rem;
+        margin: 1rem;
+        
+    }
+    
+
+    .reg{
+        background: whitesmoke;
+
+    }
+    .reg .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+    .reg .container .form{
+        margin: 1.5rem;
+        flex: 1 1 25rem;
+        text-align: center;
+        border-left:4px solid chartreuse;
+        text-transform: none;
+    }
+
+    .reg .container .form input{
+        display: block;
+        padding: 1rem;
+        border-radius: 10px;
+        margin: 10px;
+        
+
+    }
+    .reg .container .form label{
+        color: #888;
+	font-size: 18px;
+	padding: 10px;
+    }
+  
+
+    .reg .container .form2 input{
+        display: block;
+        padding: 1rem;
+        border-radius: 10px;
+        margin: 10px;
+        text-transform: none;
+        
+
+    }
+    .reg .container  .form2{
+        width: 500px;
+	border: 2px solid #ccc;
+	padding-top: 5rem;
+	background: #fff;
+	border-radius: 15px;
+    text-transform: none;
+
+    }
+    .reg  .container  .form2 .error{
+        background-image: linear-gradient(cyan, skyblue);
+   color: red;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+    }
+    .reg  .container  .form2 button{
+        float: right;
+        background-image: linear-gradient(rgb(27, 253, 253), rgb(7, 123, 161));
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+    }
+
+    .reg .container form .form2 input{
+        display: block;
+	border: 2px solid lime;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+    text-transform: none;
+    }
+
+
+
+    .reg table{
+        width: 90%;
+       align-items: center;
+    }
+.reg table, tr,th,td{
+    border-collapse: collapse;
+    border: 2px solid chartreuse;
+}
+
+
+ tr :hover{
+    background-color:#EE0548;
+
+}
+
+
+.login{
+    background: #f39c12;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+    .book{
+        background-color: #f39c12;
+    }
+
+    .book .content{
+        display:flex ;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .book .content .box{
+        margin: 1.5rem;
+        flex: 1 1 25rem;
+        text-align: center;
+        border-left:4px solid chartreuse;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-image: linear-gradient(yellow,orange );
+}
+.footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.footer .container .box{
+    margin: 1.5rem;
+    flex: 1 1 25rem;
+    text-align: center;
+}
+
+.footer .container .box h2{
+    font-size: 2.5rem;
+    text-decoration: underline;
+    
+    padding:1rem 0;
+}
+.footer .container .box a{
+    display: block;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    
+}
+.footer .container .box a:hover{
+    text-decoration:underline black;
+    letter-spacing: 2px;
+}
+
+.footer .credit{
+    padding:2rem 1rem;
+    font-size: 2rem;
+    color:#fff;
+    background:#111;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 3rem;
+}
+
+.footer .credit a{
+    color:#f39c12
+} 
+
+
+
+
+.login{
+    background: #f39c12;
+}
